@@ -12,7 +12,7 @@ namespace SharedDriveLibrary
         public enum ResponeType { Success, Failure };
         public enum ActionType { Upload, Download, Delete };
         public const int BlockSize = 1024;
-        public const string ServerIPAddress = "192.168.1.105";
+        public const string ServerIPAddress = "192.168.1.105";  // Change to your IP address
         public const int ServerPortNumber = 8080;
     }
 }
